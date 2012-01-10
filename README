@@ -1,0 +1,5 @@
+To perform the build and run the application in Jetty, use 'gradle jettyRunWar'.
+
+Gradle sold separately (http://gradle.org/)
+
+The application has only been built and run under Gradle 1.0 Milestone 7.

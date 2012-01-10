@@ -1,0 +1,49 @@
+/* Formatting specific to the StockWatcher application */
+
+body {
+    padding: 10px;
+}
+
+/* stock list header row */
+.watchListHeader {
+    background-color: #2062B8;
+    color: white;
+    font-style: italic;
+}
+
+.watchList {
+    border: 4px solid gold;
+    padding: 3px;
+    margin-bottom: 6px;
+}
+
+.watchListNumericColumn {
+    text-align: right;
+    width:8em;
+}
+
+.watchListRemoveColumn {
+  text-align: center;
+}
+
+/* panel with add button + symbol textbox */
+.addPanel {
+  margin: 10px 0 15px 0;
+}
+
+/* Dynamic color changes for the Change field */
+.noChange {
+  color: black;
+}
+
+.positiveChange {
+  color: green;
+}
+
+.negativeChange {
+  color: red;
+}
+
+.errorMessage {
+    color:red;
+}

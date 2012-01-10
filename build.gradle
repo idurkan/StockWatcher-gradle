@@ -1,0 +1,75 @@
+apply plugin: 'java'
+apply plugin: 'gwt2'
+apply plugin: 'jetty'
+apply plugin: 'war'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    flatDir(dirs: 'lib')
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    
+    dependencies {
+        classpath group:'net.desource.gradle', name:'gradle-gwt-plugin', version:'0.3-SNAPSHOT'
+    }
+}
+
+sourceSets {
+   main {
+       java {
+           srcDir 'src'
+       }
+       resources {
+           srcDir 'src'
+       }
+   }
+}
+
+dependencies {
+    gwt 'javax.validation:validation-api:1.0.0.GA'
+    gwt 'javax.validation:validation-api-sources:1.0.0.GA'
+    gwt 'com.google.gwt:gwt-user:2.4.0@jar'
+    gwt 'com.google.gwt:gwt-dev:2.4.0@jar'
+    
+}
+
+// GWT-specific settings.
+compileGwt {
+    draftCompile = true
+}
+
+war.dependsOn(compileGwt)
+war {
+    // include files created by GWT compilation in war task output.
+    def gwtOutputTree = project.fileTree(project.compileGwt.buildDir)
+    from(gwtOutputTree)
+    from(file('war'))
+}
+
+gwtModules     = ['com.google.gwt.sample.stockwatcher.StockWatcher']
+
+//[jettyRun, jettyRunWar]*.contextPath = '/'
+//war.webAppDir = file("war")
+
+compileGwt {
+  style = 'DETAILED' // Script output style: OBF[USCATED], PRETTY, or DETAILED (defaults to OBF)
+  compileReport = true
+}
+
+jettyRun {
+    webAppSourceDirectory = file('war')
+}
+
+gwtDevMode {
+    startupUrls = ['/']
+}
+
