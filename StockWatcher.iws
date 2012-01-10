@@ -70,10 +70,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="StockPriceServiceImpl.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="StockPriceServiceImpl.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.5886076">
+                <state line="31" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -108,10 +108,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/build.gradle">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="12" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+                <state line="31" column="23" selection-start="553" selection-end="553" vertical-scroll-proportion="0.5886076">
                   <folding />
                 </state>
               </provider>
@@ -132,10 +132,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="StockWatcher.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="StockWatcher.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="196" column="13" selection-start="7122" selection-end="7122" vertical-scroll-proportion="0.76962024">
+                <state line="162" column="42" selection-start="5838" selection-end="5838" vertical-scroll-proportion="0.12405063">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -225,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/StockWatcher.gwt.xml" />
         <option value="$PROJECT_DIR$/war/StockWatcher.html" />
         <option value="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/shared/StockPriceServiceImpl.java" />
@@ -238,6 +237,7 @@
         <option value="$PROJECT_DIR$/war/StockWatcher.css" />
         <option value="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java" />
         <option value="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -756,13 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="12" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="-12.142858">
@@ -825,21 +818,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.5886076">
+        <state line="162" column="42" selection-start="5838" selection-end="5838" vertical-scroll-proportion="0.12405063">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="13" selection-start="7122" selection-end="7122" vertical-scroll-proportion="0.76962024">
+        <state line="31" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="23" selection-start="553" selection-end="553" vertical-scroll-proportion="0.5886076">
+          <folding />
         </state>
       </provider>
     </entry>
